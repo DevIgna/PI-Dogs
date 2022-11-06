@@ -1,0 +1,108 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.landing {
+  width: 100%;
+  height: 100vh;
+  background: url('../Images/fondolanding.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+.landing {
+  color: rgba(236, 236, 70);
+  /* font-size: 34px; */
+  overflow: hidden;
+}
+
+.landing h1 {
+  /* color: rgb(255, 255, 109);
+  margin-bottom: 15px; */
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 50px;
+}
+
+.landing h2 {
+  /* 
+  display: flex;
+  flex-direction: column;
+  */
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+  margin-top: 2em;
+  font-size: 40px; 
+  margin-right: 94px;
+}
+
+.landing button {
+  display: inline-block;
+  border-radius: 10px;
+  background-color: #b6a97c;
+  border: none;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  transition: all 0.3s;
+  cursor: pointer;
+  font-size: 2em; 
+  margin:auto;
+  margin-top: 10px;
+  padding: 6px; 
+
+  
+
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.title2{
+  color: rgb(136, 255, 0);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 40px;
+  font-size: 2.8em; 
+  margin: 5px;   
+}
+
+.landing a{
+  color: rgb(136, 255, 0);
+}
+
+.landing a:hover{
+  color: yellow;
+}
+

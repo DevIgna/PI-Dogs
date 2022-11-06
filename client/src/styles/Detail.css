@@ -1,0 +1,98 @@
+
+.divDetail{
+    background-image: url('../Images/fondoparaTodo.jpg');
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+.buttonHome1{
+    background-color: #ddbea9;
+    float: left;
+    font-size: medium;
+    margin-left: 0px;
+    margin-top: 36px;
+    height: 43px;
+    border: transparent;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 140px;
+    font-weight: 800;
+}
+
+
+#home{
+    margin-left: 40px
+}
+
+.name{
+    color: #ffc3a2;
+    padding-right: 90px;
+}
+
+.asd{
+    display: inline-block;
+    padding: 0;
+    margin: 30px;
+    font-size: medium;
+}
+.asd li {
+    display:inline-block;
+}
+
+.image{
+    height: 80%;
+    max-height: 600px;
+    width: 80%;
+    max-width: 600px;
+    box-shadow: rgb(0 0 0 / 19%) 0px 10px 20px, rgb(0 0 0 / 23%) 0px 6px 6px;
+    border-radius: 8px;
+}
+
+.allTemps {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    font-size: medium;
+}
+.allTemps li {
+    display: inline;
+}
+
+.caracts{
+    color: #ffc3a2;
+    font-size: large;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    margin-top: 30px
+}
+
+.caracts1{
+    color: black;
+    font-size: large;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    margin-top: 30px;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+p{
+    color: #6b705c;
+    font-size: medium;
+    padding-bottom: 10px;
+    padding-top: 0;
+    margin-top: 5px;
+}
+.last{
+    margin-bottom: 40px;
+}
+
+.loading{
+    position:absolute;
+    height: 100%;
+    width: 100%;
+    background-image: url('../Images/fondoparaTodo.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

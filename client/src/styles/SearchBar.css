@@ -1,0 +1,18 @@
+
+.input{
+  padding: 10px;
+  color: black;
+  letter-spacing: 1px;
+}
+
+.searchBar button{
+  padding: 10px;
+  border-radius: 15px;
+  background-color: #ffc3a2;
+  border: none;
+}
+
+.input::placeholder{
+  color: black;
+  font-weight: 600;
+}

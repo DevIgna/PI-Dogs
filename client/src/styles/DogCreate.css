@@ -1,0 +1,115 @@
+.background-image{
+    background-image: url('../Images/fondoparaTodo.jpg');
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.divCreate{
+    /* background-image: url('../Images/fondoparaTodo.jpg') ; */
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.buttonHome{
+  width: 7.9em;
+  font-size: 1.3em;
+  border: 3.5px solid rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  background-color: #ffc3a2;
+  letter-spacing: 2px;
+  padding: 9px;
+  cursor: pointer;
+}
+.buttonHome:hover{
+    background-color: transparent;
+}
+
+.title{
+    justify-content: center;
+    padding-right: 9px;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    letter-spacing: 2px;
+}
+
+label{
+    color: #ffc3a2;
+    font-size: medium;
+    margin: 10px;
+}
+
+input{
+    background-color: #ddbea9;
+    border-radius: 4px;
+    border-color: transparent;
+    margin: 10px;
+}
+input:hover{
+    background-color: #ffe8d6;
+}
+
+.allTemps{
+    display: inline-block;
+}
+.allTemps li{
+    justify-content: center;
+    display: inline;
+}
+.temp{
+    font-size: medium;
+    color: #e26647;
+    margin: 10px;
+}
+.x{
+    background-color: #ddbea9;
+    border: transparent;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+select{
+    cursor: pointer;
+    padding: 7px 10px;
+    height: 42px;
+    font-size: 1em;
+    color: #cb997e;
+    border:2px solid rgba(0,0,0,0.2);
+    border-radius: 8px;
+    transition: all 0.25s ease;
+    margin: 10px;
+}
+select:hover{
+    background: #ffe8d6;
+    color: rgb(71, 71, 71);
+    border-color: rgb(71, 71, 71);
+}
+
+.boop{
+    background-color: #ddbea9;
+    border: transparent;
+    border-radius: 8px;
+    font-size: medium;
+    height: 43px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 10px;
+    color: #4c5042;
+    cursor: pointer;
+    transition: all 0.25s ease;
+}
+.boop:hover{
+    background-color: #cb997e;
+    transform:scale(1.1);
+}
+
+.error{
+    color: rgb(15, 9, 9);
+    font-size: 20px;
+    margin-top: 0;
+}
+
